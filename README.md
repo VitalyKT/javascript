@@ -63,9 +63,9 @@ Other Style Guides
 ## Types
 
   <a name="types--primitives"></a><a name="1.1"></a>
-  - [1.1](#types--primitives) **Primitives**: When you access a primitive type you work directly on its value.
+  - [1.1](#types--primitives) **Примитивы**: Когда вы обращаетесь к примитивному типу, вы работаете непосредственно с его значением.
 
-    - `string`
+    - `string` 
     - `number`
     - `boolean`
     - `null`
@@ -84,10 +84,10 @@ Other Style Guides
     console.log(foo, bar); // => 1, 9
     ```
 
-    - Symbols and BigInts cannot be faithfully polyfilled, so they should not be used when targeting browsers/environments that don’t support them natively.
+    - Symbols и BigInts не могут быть достоверно заполнены полифайлами, поэтому их не следует использовать в браузерах/средах, которые не поддерживают их нативно.
 
   <a name="types--complex"></a><a name="1.2"></a>
-  - [1.2](#types--complex)  **Complex**: When you access a complex type you work on a reference to its value.
+  - [1.2](#types--complex)  **Complex**: Когда вы обращаетесь к сложному типу, вы работаете со ссылкой на его значение.
 
     - `object`
     - `array`
