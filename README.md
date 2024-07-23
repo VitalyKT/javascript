@@ -114,28 +114,28 @@ Other Style Guides
     > Why? This ensures that you can’t reassign your references, which can lead to bugs and difficult to comprehend code.
 
     ```javascript
-    // bad
+    // плохо
     var a = 1;
     var b = 2;
 
-    // good
+    // хорошо
     const a = 1;
     const b = 2;
     ```
 
   <a name="references--disallow-var"></a><a name="2.2"></a>
-  - [2.2](#references--disallow-var) If you must reassign references, use `let` instead of `var`. eslint: [`no-var`](https://eslint.org/docs/rules/no-var)
+  - [2.2](#references--disallow-var) Если вам нужно переназначить ссылки, используйте `let` всесто `var`. eslint: [`no-var`](https://eslint.org/docs/rules/no-var)
 
-    > Why? `let` is block-scoped rather than function-scoped like `var`.
+    > Почему? `let` is block-scoped rather than function-scoped like `var`.
 
     ```javascript
-    // bad
+    // плохо
     var count = 1;
     if (true) {
       count += 1;
     }
 
-    // good, use the let.
+    // хорошо, воспользуйтесь разрешением.
     let count = 1;
     if (true) {
       count += 1;
